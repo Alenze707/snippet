@@ -17,9 +17,9 @@ func home(w http.ResponseWriter, r *http.Request) {
 	// to note that the file containing our base template must be the *first*
 	// file in the slice.
 	files := []string{
-		"./ui/html/base.tmpl",
-		"./ui/html/pages/home.tmpl",
-		"./ui/html/partials/nav.tmpl",
+		"./ui/html/base.html",
+		"./ui/html/pages/home.html",
+		"./ui/html/partials/nav.html",
 	}
 	// Use the template.ParseFiles() function to read the files and store the
 	// templates in a template set. Notice that we can pass the slice of file
